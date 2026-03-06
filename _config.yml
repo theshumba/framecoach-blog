@@ -1,0 +1,37 @@
+title: "FrameCoach Blog — Filmmaking Tips, Camera Settings & Visual Storytelling"
+description: "Learn filmmaking, master camera settings, and level up your visual storytelling. The official blog from FrameCoach — the filmmaker app for indie creators."
+url: "https://theshumba.github.io"
+baseurl: "/framecoach-blog"
+permalink: /:title/
+
+author:
+  name: "FrameCoach Team"
+  url: "https://framecoach.io"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "FrameCoach Team"
+      image: "/framecoach-blog/assets/images/default-og.png"
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/

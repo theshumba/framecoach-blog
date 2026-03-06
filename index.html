@@ -1,0 +1,42 @@
+---
+layout: default
+title: "FrameCoach Blog — Filmmaking Tips, Camera Settings & Visual Storytelling"
+description: "Learn filmmaking, master camera settings, and level up your visual storytelling. Free guides from FrameCoach — the filmmaker app for indie creators."
+---
+
+<div class="home-hero">
+  <h1>The FrameCoach Filmmaker Blog</h1>
+  <p>Free guides on camera settings, shot composition, and visual storytelling for indie filmmakers, film students, and content creators.</p>
+  <p style="margin-top: 1rem;"><a href="https://framecoach.io" class="cta-button" target="_blank" rel="noopener">Try FrameCoach Free</a></p>
+</div>
+
+<section>
+  <h2>Explore by Topic</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0 3rem;">
+    <a href="{{ '/camera-settings-guide/' | relative_url }}" style="background: #1a1a1a; padding: 1.5rem; border-radius: 10px; border: 1px solid #333; color: #e8e8e8; text-decoration: none;">
+      <strong style="font-size: 1.1rem;">Camera Settings</strong>
+      <p style="color: #999; margin-top: 0.4rem; font-size: 0.9rem;">Master ISO, shutter speed, aperture, white balance, and frame rates for film.</p>
+    </a>
+    <a href="{{ '/learn-filmmaking/' | relative_url }}" style="background: #1a1a1a; padding: 1.5rem; border-radius: 10px; border: 1px solid #333; color: #e8e8e8; text-decoration: none;">
+      <strong style="font-size: 1.1rem;">Learn Filmmaking</strong>
+      <p style="color: #999; margin-top: 0.4rem; font-size: 0.9rem;">Start your filmmaking journey with beginner-friendly guides and tutorials.</p>
+    </a>
+    <a href="{{ '/filmmaker-tools/' | relative_url }}" style="background: #1a1a1a; padding: 1.5rem; border-radius: 10px; border: 1px solid #333; color: #e8e8e8; text-decoration: none;">
+      <strong style="font-size: 1.1rem;">Filmmaker Tools</strong>
+      <p style="color: #999; margin-top: 0.4rem; font-size: 0.9rem;">The best apps, gear, and tools for indie filmmakers in 2026.</p>
+    </a>
+  </div>
+</section>
+
+<section>
+  <h2>Latest Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

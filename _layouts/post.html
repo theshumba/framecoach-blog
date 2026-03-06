@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/Article">
+  <header class="post-header">
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span class="author" itemprop="author">{{ page.author | default: "FrameCoach Team" }}</span>
+      {% if page.categories %}
+      <span class="categories">
+        {% for cat in page.categories %}
+        <a href="{{ site.baseurl }}/{{ cat | slugify }}/">{{ cat }}</a>
+        {% endfor %}
+      </span>
+      {% endif %}
+    </div>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <div class="post-cta">
+    <h3>Level Up Your Filmmaking</h3>
+    <p>FrameCoach gives you real-time camera coaching, shot composition guidance, and visual storytelling tools — right on your device.</p>
+    <a href="https://framecoach.io" class="cta-button" target="_blank" rel="noopener">Try FrameCoach Free</a>
+  </div>
+  <nav class="post-navigation">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}" class="prev">&larr; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}" class="next">{{ page.next.title }} &rarr;</a>
+    {% endif %}
+  </nav>
+</article>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 | escape }}",
+  "author": {
+    "@type": "Organization",
+    "name": "FrameCoach",
+    "url": "https://framecoach.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FrameCoach",
+    "url": "https://framecoach.io"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": "{{ page.url | absolute_url }}"
+}
+</script>

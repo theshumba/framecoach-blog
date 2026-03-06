@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FrameCoach Blog",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "description": "{{ site.description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "FrameCoach",
+      "url": "https://framecoach.io"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="{{ '/' | relative_url }}" class="site-title">FrameCoach Blog</a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/camera-settings-guide/' | relative_url }}">Camera Settings</a>
+        <a href="{{ '/learn-filmmaking/' | relative_url }}">Learn Filmmaking</a>
+        <a href="{{ '/filmmaker-tools/' | relative_url }}">Filmmaker Tools</a>
+        <a href="https://framecoach.io" target="_blank" rel="noopener">Get FrameCoach</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>FrameCoach</h3>
+        <p>The filmmaker app that coaches you through camera settings, shot composition, and visual storytelling.</p>
+        <a href="https://framecoach.io" target="_blank" rel="noopener">Try FrameCoach Free</a>
+      </div>
+      <div class="footer-section">
+        <h3>Learn Filmmaking</h3>
+        <ul>
+          <li><a href="{{ '/camera-settings-guide/' | relative_url }}">Camera Settings Guide</a></li>
+          <li><a href="{{ '/learn-filmmaking/' | relative_url }}">Beginner Filmmaking</a></li>
+          <li><a href="{{ '/filmmaker-tools/' | relative_url }}">Filmmaker Tools</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Popular Posts</h3>
+        <ul>
+          {% for post in site.posts limit:5 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; {{ 'now' | date: '%Y' }} <a href="https://framecoach.io">FrameCoach</a>. All rights reserved.</p>
+  </footer>
+</body>
+</html>

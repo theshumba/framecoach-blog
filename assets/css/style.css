@@ -1,0 +1,166 @@
+:root {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --text: #e8e8e8;
+  --text-muted: #999;
+  --accent: #e63946;
+  --accent-hover: #ff4d5a;
+  --link: #4dabf7;
+  --max-width: 800px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header {
+  border-bottom: 1px solid #333;
+  padding: 1rem 2rem;
+}
+
+.site-header nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.nav-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.nav-links a { color: var(--text-muted); font-size: 0.95rem; }
+.nav-links a:hover { color: var(--text); text-decoration: none; }
+.nav-links a[href*="framecoach.io"] {
+  background: var(--accent);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.post-header { margin-bottom: 2rem; }
+.post-header h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 0.5rem; }
+.post-meta { color: var(--text-muted); font-size: 0.9rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+.post-meta a { color: var(--accent); }
+
+.post-content h2 { font-size: 1.6rem; margin: 2rem 0 0.8rem; color: var(--text); }
+.post-content h3 { font-size: 1.3rem; margin: 1.5rem 0 0.6rem; }
+.post-content p { margin-bottom: 1.2rem; }
+.post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+.post-content li { margin-bottom: 0.4rem; }
+.post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem 0;
+  background: var(--surface);
+  border-radius: 0 8px 8px 0;
+}
+.post-content code {
+  background: var(--surface);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.post-content img { max-width: 100%; border-radius: 8px; margin: 1rem 0; }
+.post-content strong { color: #fff; }
+
+.post-cta {
+  background: var(--surface);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.post-cta h3 { margin-bottom: 0.5rem; }
+.post-cta p { color: var(--text-muted); margin-bottom: 1rem; }
+.cta-button {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.cta-button:hover { background: var(--accent-hover); text-decoration: none; }
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+}
+
+/* Home page */
+.home-hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+.home-hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.home-hero p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+.post-list { list-style: none; padding: 0; }
+.post-list li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #222;
+}
+.post-list h2 { font-size: 1.4rem; margin-bottom: 0.3rem; }
+.post-list h2 a { color: var(--text); }
+.post-list h2 a:hover { color: var(--accent); }
+.post-list .excerpt { color: var(--text-muted); font-size: 0.95rem; }
+.post-list time { color: var(--text-muted); font-size: 0.85rem; }
+
+/* Hub pages */
+.hub-page h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+.hub-page .hub-intro { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 2rem; }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #333;
+  padding: 3rem 2rem 1.5rem;
+  margin-top: 4rem;
+}
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.footer-section h3 { margin-bottom: 0.8rem; font-size: 1rem; }
+.footer-section p, .footer-section li { color: var(--text-muted); font-size: 0.9rem; }
+.footer-section ul { list-style: none; }
+.footer-section li { margin-bottom: 0.4rem; }
+.footer-section a { color: var(--text-muted); }
+.footer-section a:hover { color: var(--text); }
+.copyright { text-align: center; margin-top: 2rem; color: #555; font-size: 0.85rem; }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  main { padding: 1rem; }
+  .post-header h1 { font-size: 1.7rem; }
+  .home-hero h1 { font-size: 1.8rem; }
+}
