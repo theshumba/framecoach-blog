@@ -39,6 +39,7 @@ layout: default
   "@type": "Article",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 | escape }}",
+  "image": "{{ page.image | default: '/framecoach-blog/assets/images/default-og.png' | absolute_url }}",
   "author": {
     "@type": "Organization",
     "name": "FrameCoach",
@@ -47,9 +48,17 @@ layout: default
   "publisher": {
     "@type": "Organization",
     "name": "FrameCoach",
-    "url": "https://framecoach.io"
+    "url": "https://framecoach.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://framecoach.io/favicon.ico"
+    }
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "mainEntityOfPage": "{{ page.url | absolute_url }}"
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
 }
 </script>

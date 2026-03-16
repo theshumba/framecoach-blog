@@ -11,17 +11,58 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "FrameCoach Blog",
-    "url": "{{ site.url }}{{ site.baseurl }}",
-    "description": "{{ site.description }}",
-    "publisher": {
+    "@type": "SoftwareApplication",
+    "name": "FrameCoach",
+    "description": "Real-time camera coaching app for filmmakers, videographers, and content creators. Coaches you through ISO, aperture, shutter speed, white balance, and composition decisions on set.",
+    "url": "https://framecoach.io",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
       "@type": "Organization",
       "name": "FrameCoach",
       "url": "https://framecoach.io"
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FrameCoach",
+    "url": "https://framecoach.io",
+    "logo": "https://framecoach.io/favicon.ico",
+    "sameAs": [
+      "https://x.com/framecoachapp",
+      "https://theshumba.github.io/framecoach-blog/"
+    ]
+  }
+  </script>
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FrameCoach Blog",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "description": "{{ site.description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "FrameCoach",
+      "url": "https://framecoach.io"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}{{ site.baseurl }}/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  {% endif %}
 </head>
 <body>
   <header class="site-header">
