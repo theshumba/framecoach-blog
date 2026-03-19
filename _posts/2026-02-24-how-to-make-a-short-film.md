@@ -65,3 +65,44 @@ Upload to YouTube or Vimeo. Submit to local film festivals via FilmFreeway. Shar
 **Then immediately start planning the next one.** The second film is where real learning begins.
 
 More in our [Learn Filmmaking hub](/framecoach-blog/learn-filmmaking/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long should a first short film be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A first short film should be 2-10 minutes. Keep it simple: one location, two characters maximum, and one central conflict or question. One page of script equals roughly one minute of screen time, so aim for 2-5 pages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the stages of making a short film?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are six stages: the idea (1 day), the script (1-3 days), pre-production including shot list and scheduling (1-2 days), production or the actual shoot (1-2 days), post-production including editing, sound, and color (3-7 days), and sharing your film via festivals and online platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What software do I need to edit a short film?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DaVinci Resolve is a free professional editing application that handles editing, sound design, and color grading. Start with an assembly cut of everything in order, then create a rough cut by trimming, and finally polish into a fine cut. Export in H.264 at 1080p minimum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I shoot coverage for a short film?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shoot the master (wide shot) of each scene first, then capture coverage including over-the-shoulder shots, close-ups, and inserts. Get more coverage than you think you need — you can always not use a shot, but you cannot create one you did not shoot."
+      }
+    }
+  ]
+}
+</script>

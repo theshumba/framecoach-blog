@@ -68,3 +68,44 @@ The rules teach you the language. Breaking them creates the poetry.
 Practice these principles with [FrameCoach](https://framecoach.io), which coaches you on composition in real-time as you shoot.
 
 Explore more composition techniques in our [Learn Filmmaking hub](/framecoach-blog/learn-filmmaking/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the rule of thirds in filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rule of thirds divides your frame into a 3x3 grid. Place key elements like eyes, horizon lines, and points of interest along those grid lines or at their intersections. For filmmaking, placing your subject's eyes on the upper third line is the single most impactful composition improvement beginners can make."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is lead room in shot composition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lead room (also called looking room) means leaving space in the direction your subject is looking or moving. A person looking screen-left should be positioned screen-right with space ahead of their gaze. Removing lead room intentionally creates claustrophobia and tension."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you add depth to a film shot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Include foreground elements like a plant, doorframe, or shoulder to create layers that make your composition feel three-dimensional. Use leading lines such as roads, hallways, and shadows to direct the viewer's eye. Shooting through something is one of the quickest ways to make any shot look more professional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should you break composition rules in filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Break composition rules when you have a clear creative reason. Centering a subject instead of using rule of thirds feels powerful. Removing headroom feels claustrophobic. Eliminating lead room creates tension. The rules teach you the visual language, and breaking them intentionally creates emotional impact."
+      }
+    }
+  ]
+}
+</script>

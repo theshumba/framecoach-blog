@@ -7,6 +7,8 @@ categories: [tools, career]
 tags: [framecoach vs film school, learn filmmaking app, filmmaker education, filmmaking learning options]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 This isn't a "one is better" comparison. [FrameCoach](https://framecoach.io) and film school serve different needs and can complement each other.
 
 ## What Film School Gives You

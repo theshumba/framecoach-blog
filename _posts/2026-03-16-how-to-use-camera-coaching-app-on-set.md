@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [camera coaching app, camera coaching on set, filmmaking workflow, on set tools, camera settings]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 You've downloaded a camera coaching app. Now what? The gap between installing a new tool and actually integrating it into a working set is where most apps get abandoned. Here's a practical guide to using a camera coaching app on set without slowing down your workflow or annoying your crew.
 
 ## Before the Shoot: Prep Work

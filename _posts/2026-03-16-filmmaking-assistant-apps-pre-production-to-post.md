@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [filmmaking assistant app, filmmaker assistant, film production apps, filmmaking workflow, video production tools]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 Making a film is project management with a creative wrapper. You're coordinating people, locations, equipment, timelines, budgets, and creative decisions across three distinct phases — pre-production, production, and post-production. Each phase has different problems, and each problem has apps built to solve it.
 
 This guide maps the best filmmaking assistant apps to every stage of the production pipeline. No filler apps included — only tools that working filmmakers actually rely on.

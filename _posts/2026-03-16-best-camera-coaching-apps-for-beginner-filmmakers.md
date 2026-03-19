@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [camera coaching app, learn camera settings app, beginner filmmaking, camera settings for beginners, filmmaking education apps]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 You bought the camera. Maybe it's a Sony A7 IV, a Fuji X-T5, or even your phone. You've watched a few YouTube tutorials. And now you're standing on location, staring at the settings menu, wondering why your footage looks flat when the tutorial made it look so easy.
 
 The gap between knowing camera theory and applying it in real shooting situations is where most beginners stall. Camera coaching apps close that gap by giving you real-time guidance while you're actually shooting — not hours later when you're watching a tutorial at home.

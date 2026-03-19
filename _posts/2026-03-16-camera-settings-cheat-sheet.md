@@ -195,3 +195,44 @@ Use this cheat sheet as your baseline. Use [FrameCoach](https://framecoach.io) w
 ## Download and Print
 
 Save this page or screenshot the tables above. Keep them on your phone for quick set reference. Over time, you'll internalize these settings and won't need the cheat sheet — but until then, there's no shame in checking your reference. Every great DP started by learning the numbers before they could feel them.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What camera settings should I use for indoor dialogue scenes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For controlled interior dialogue, use 24fps, 1/50 shutter speed, f/2.0-f/2.8 aperture for shallow depth of field, ISO 400-800, and white balance at 3200K-3400K to match tungsten lighting. Shoot wide open for close-ups and stop down slightly for two-shots so both actors stay in focus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What camera settings work best for shooting in bright sunlight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In sunny daylight, use 24fps, 1/50 shutter speed, f/4.0-f/8.0 aperture, ISO 100-200, and 5600K white balance. You will almost certainly need an ND filter (ND8 or ND64) to maintain the 1/50 shutter speed at wider apertures without overexposing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I set camera settings for low light filming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For low light interiors, open your aperture to f/1.4-f/2.0, push ISO to 1600-3200, keep shutter speed at 1/50, and set white balance to 2700K-3200K. Cameras with dual native ISO excel here. Accept some grain — it looks cinematic in low-light scenes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What camera settings should I use for slow motion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For 2.5x slow motion, shoot at 60fps with a 1/120 shutter speed (180-degree rule). This faster shutter lets in about one stop less light than normal, so compensate with ISO or aperture. Plan slow motion shots for brighter parts of the day when possible."
+      }
+    }
+  ]
+}
+</script>

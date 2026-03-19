@@ -7,6 +7,8 @@ categories: [camera-settings]
 tags: [manual camera settings app, learn camera settings, framecoach, camera coaching, manual exposure]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 Shooting in manual is the single biggest leap a filmmaker makes. Auto mode gives you technically acceptable footage. Manual mode gives you creative control — over depth of field, motion blur, noise, color temperature, and exposure. But that control comes with a steep learning curve.
 
 Most filmmakers learn manual settings through some combination of YouTube tutorials, trial and error, and occasional advice from more experienced shooters. It works, but it's slow and the gaps in knowledge tend to show up at the worst moments — on set, under pressure, when you can't afford to mess up.

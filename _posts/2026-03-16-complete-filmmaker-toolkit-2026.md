@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [filmmaker toolkit 2026, filmmaking resources, filmmaker gear guide, filmmaking tools, filmmaker essentials]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 Filmmaking has never been more accessible. The cameras are affordable, the software is powerful, and the distribution is free. But accessibility creates a new problem: there are too many options. Too many cameras, too many apps, too many YouTube tutorials, too many conflicting opinions about what you "need."
 
 This is the filmmaker toolkit I'd build from scratch in 2026 — every app, piece of gear, and resource that earns its place, organized by what you actually need at each stage of production.

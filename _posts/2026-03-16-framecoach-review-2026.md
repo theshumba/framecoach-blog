@@ -7,6 +7,8 @@ categories: [reviews]
 tags: [framecoach review, framecoach app, camera coaching app, filmmaking app review, filmmaker tools]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 I've been testing filmmaking apps for years. Most fall into one of two traps: they're either glorified calculators with a nice UI, or they try to do everything and end up doing nothing well. FrameCoach is neither. It's a focused camera coaching app that does one thing — helps you make better camera decisions on set — and does it unusually well.
 
 Here's a straightforward review of [FrameCoach](https://framecoach.io) in 2026.

@@ -103,3 +103,44 @@ Learn to read at least the histogram — it's available on almost every camera a
 Manual mode isn't harder than auto — it's just more intentional. Once you understand what each setting does, you're making four conscious choices instead of letting an algorithm make them for you. And those choices are what separate a filmmaker from someone who points a camera at things.
 
 Start with our [camera settings overview](/framecoach-blog/how-to-set-camera-settings-for-film/) if you want the complete beginner's walkthrough.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why should filmmakers use manual mode instead of auto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Auto mode creates inconsistent footage that is hard to edit. Auto ISO shifts brightness between takes, auto white balance changes color mid-scene, and auto shutter speed alters motion blur between frames. Manual mode gives you the consistency that enables creative storytelling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What exposure tools should filmmakers use on set?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a histogram to see brightness distribution, zebras set at 95-100% to spot blown highlights, false color to see color-coded exposure levels, or a waveform monitor for the most accurate reading. At minimum, learn to read the histogram — it is available on almost every camera."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the correct workflow for setting manual camera controls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confirm frame rate first, set shutter speed to double your frame rate, set white balance to match your lighting, choose aperture for your creative depth of field, set ISO last to fine-tune exposure, then set manual focus. Check exposure with histogram or zebras before rolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is dual native ISO and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some cameras like the Sony FX3 and Panasonic GH6 have two native ISO values where the sensor performs optimally, such as ISO 800 and ISO 3200. This gives you two clean ISO options, which is especially useful in low-light shooting scenarios where you need to push ISO higher."
+      }
+    }
+  ]
+}
+</script>

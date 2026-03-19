@@ -111,3 +111,44 @@ If you want real-time guidance through this process on set, [FrameCoach](https:/
 Once you've locked in these five settings, the technical side of filmmaking becomes second nature. Your brain can focus on what actually makes films great: composition, lighting, performance, and story.
 
 Check out our [complete camera settings hub](/framecoach-blog/camera-settings-guide/) for deep dives on each individual setting.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the five camera settings that matter for filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five essential camera settings for filmmaking are frame rate, shutter speed, aperture, ISO, and white balance. Frame rate and shutter speed are usually set once and locked, while aperture and ISO are your main exposure tools on set."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 180-degree shutter rule in filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 180-degree rule means your shutter speed should be double your frame rate. At 24fps, use 1/48 or 1/50. At 30fps, use 1/60. This creates the natural motion blur audiences associate with cinema."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What order should I set my camera settings for a film shoot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set frame rate first (usually 24fps), then shutter speed (double the frame rate), then white balance (match your lighting), then aperture (for desired depth of field), and finally ISO (to fine-tune exposure). This order matters because frame rate and shutter speed are fixed, while aperture and ISO are your creative tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use auto settings when filming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Auto ISO, auto white balance, and autofocus all create inconsistencies between shots that are difficult to fix in editing. Always use manual settings for filmmaking to maintain consistency across takes and scenes."
+      }
+    }
+  ]
+}
+</script>

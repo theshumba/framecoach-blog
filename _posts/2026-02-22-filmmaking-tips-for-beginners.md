@@ -57,3 +57,44 @@ You'll never feel ready. The gear will never be good enough. The script will nev
 [FrameCoach](https://framecoach.io) is built for this philosophy — coaching you through decisions in real-time so you learn by doing, not by waiting.
 
 More beginner guides in our [Learn Filmmaking hub](/framecoach-blog/learn-filmmaking/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is audio or video more important in filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Audio is more important. Audiences will watch mediocre footage with clean audio for 10 minutes, but they will abandon beautiful footage with bad audio after about 10 seconds. Buy a $20 lav mic before a $200 lens."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use manual or auto camera settings for filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Always use manual settings. Automatic exposure, focus, and white balance create inconsistencies between shots that are very difficult to fix in editing. Manual control ensures your footage matches across all takes and angles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much B-roll should I shoot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shoot at least three times more B-roll than you think you need. Capture close-ups of hands, environment details, and wide establishing shots. You will use them all in the edit and cannot create shots you did not capture on set."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most important habit for beginner filmmakers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Finish everything you start. A finished bad film teaches you more than three abandoned good ideas. The completion muscle is the most important one to develop as a filmmaker. Pick one new technique to practice per project and improve gradually."
+      }
+    }
+  ]
+}
+</script>

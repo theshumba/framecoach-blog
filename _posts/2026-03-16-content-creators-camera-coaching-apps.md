@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [camera app for content creators, content creator filmmaking, video quality tips, youtube filming, creator tools]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 There's a visible line in the content creation world: on one side, creators who shoot on auto mode and compensate with editing tricks. On the other, creators whose raw footage already looks cinematic — the colors are rich, the depth of field is intentional, the motion feels smooth. The difference isn't the camera. It's the settings.
 
 More and more content creators are figuring this out, and they're turning to camera coaching apps to close the gap. Here's why.

@@ -46,3 +46,44 @@ Your phone can produce genuinely cinematic footage. The gap between phone video 
 Films like Tangerine and Unsane proved that phones are real filmmaking tools. Your phone is good enough. Start today.
 
 More in our [Learn Filmmaking hub](/framecoach-blog/learn-filmmaking/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I make a professional film with just a smartphone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Films like Tangerine and Unsane were shot on smartphones and received theatrical distribution. Your phone shoots 4K video and the gap between phone footage and cinema is technique, not the sensor. Use manual settings, proper stabilization, good lighting, and external audio for professional results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What settings should I use for smartphone filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Switch to 24fps for a cinematic feel, use a pro camera app like Blackmagic Camera (free on iPhone) for manual control, lock exposure, focus, and white balance manually, and use the 2x or 3x lens for less distortion and more natural-looking footage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best budget gear for phone filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A $50 phone gimbal like the DJI OM series is the single best investment for stabilization. A $20 lav mic transforms dialogue quality. A $15-25 phone tripod handles static shots. A $5 LED clip light adds fill lighting. Total investment under $100 dramatically improves production value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What apps should I use to edit films shot on a phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CapCut is free and handles basic editing well on mobile. LumaFusion costs $30 one-time and offers serious mobile editing capabilities. DaVinci Resolve is free and the best option if you are editing on a desktop computer."
+      }
+    }
+  ]
+}
+</script>

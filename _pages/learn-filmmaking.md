@@ -52,3 +52,135 @@ permalink: /learn-filmmaking/
 - [Learn Cinematography Online Free: Best Resources in 2026](/framecoach-blog/learn-cinematography-online-free/)
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Learn Filmmaking — Free Beginner Guides & Tutorials",
+  "description": "Start filmmaking from scratch with free beginner guides covering camera basics, shot composition, visual storytelling, and production skills.",
+  "numberOfItems": 20,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "How to Start Filmmaking: The Only Guide You Need",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-start-filmmaking/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Filmmaking Tips for Beginners: 15 Things I Wish I Knew",
+      "url": "https://theshumba.github.io/framecoach-blog/filmmaking-tips-for-beginners/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Common Beginner Filmmaking Mistakes (And How to Fix Them)",
+      "url": "https://theshumba.github.io/framecoach-blog/common-beginner-filmmaking-mistakes/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Film School vs Self-Taught: Which Path is Right for You?",
+      "url": "https://theshumba.github.io/framecoach-blog/film-school-vs-self-taught/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "How to Make a Short Film: Step-by-Step for First-Timers",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-make-a-short-film/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Filmmaking on a Budget: Make Pro-Quality Films Without Breaking the Bank",
+      "url": "https://theshumba.github.io/framecoach-blog/filmmaking-on-a-budget/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Solo Filmmaking Guide: How to Make Films By Yourself",
+      "url": "https://theshumba.github.io/framecoach-blog/solo-filmmaking-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Smartphone Filmmaking Tips: Shoot Cinema-Quality on Your Phone",
+      "url": "https://theshumba.github.io/framecoach-blog/smartphone-filmmaking-tips/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Shot Composition for Beginners: 10 Rules That Make Every Frame Better",
+      "url": "https://theshumba.github.io/framecoach-blog/shot-composition-for-beginners/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "How to Frame a Shot: A Filmmaker's Guide to Composition",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-frame-a-shot/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "name": "Visual Storytelling Techniques Every Filmmaker Should Know",
+      "url": "https://theshumba.github.io/framecoach-blog/visual-storytelling-techniques/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "name": "Color Theory for Filmmakers: How to Use Color to Tell Stories",
+      "url": "https://theshumba.github.io/framecoach-blog/color-theory-for-filmmakers/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "name": "Camera Movement Types in Film: A Visual Guide",
+      "url": "https://theshumba.github.io/framecoach-blog/camera-movement-types-film/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "name": "How to Pull Focus: A Guide for Solo Filmmakers",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-pull-focus/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "name": "How to Shoot B-Roll That Actually Tells a Story",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-shoot-broll/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "name": "Lens Choice for Filmmaking: Which Lens for Which Shot",
+      "url": "https://theshumba.github.io/framecoach-blog/lens-choice-for-filmmaking/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "name": "How to Become a Filmmaker: A Realistic Guide",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-become-a-filmmaker/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "name": "Filmmaker Portfolio Tips: How to Stand Out",
+      "url": "https://theshumba.github.io/framecoach-blog/filmmaker-portfolio-tips/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "name": "Film Crew Roles Explained: Who Does What on Set",
+      "url": "https://theshumba.github.io/framecoach-blog/film-crew-roles-explained/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "name": "Learn Cinematography Online Free: Best Resources in 2026",
+      "url": "https://theshumba.github.io/framecoach-blog/learn-cinematography-online-free/"
+    }
+  ]
+}
+</script>

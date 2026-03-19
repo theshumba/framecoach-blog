@@ -7,6 +7,8 @@ categories: [filmmaking-tools]
 tags: [best filmmaking apps, filmmaking apps 2026, filmmaker tools, video production apps, indie filmmaking software]
 ---
 
+*Disclosure: This article is published by the FrameCoach team. [FrameCoach](https://framecoach.io) is our product.*
+
 Finding the right filmmaking app used to mean scrolling through forum threads and watching hour-long YouTube reviews. In 2026, the landscape has shifted. There are genuinely useful tools that solve specific production problems — not bloated suites that try to do everything and do nothing well.
 
 I've been shooting indie projects and commercial work for years. These are the 10 apps I actually use or recommend to other filmmakers, ranked by how much they improve your work on set and in post.

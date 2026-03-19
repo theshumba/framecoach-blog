@@ -39,3 +39,87 @@ permalink: /camera-settings-guide/
 Ready to stop guessing your camera settings? **[FrameCoach](https://framecoach.io)** gives you real-time camera coaching on set — try it free.
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Camera Settings Guide for Filmmakers — Complete Reference",
+  "description": "Master camera settings for film. Learn ISO, shutter speed, aperture, white balance, and frame rate with practical filmmaker guides.",
+  "numberOfItems": 12,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "How to Set Camera Settings for Film: A Beginner's Complete Guide",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-set-camera-settings-for-film/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Manual Camera Settings Explained for Filmmakers",
+      "url": "https://theshumba.github.io/framecoach-blog/manual-camera-settings-explained/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How to Expose a Shot Correctly Every Time",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-expose-a-shot-correctly/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Shutter Speed for Filmmaking: The 180-Degree Rule and Beyond",
+      "url": "https://theshumba.github.io/framecoach-blog/shutter-speed-for-filmmaking/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "How to Use Aperture for a Cinematic Look",
+      "url": "https://theshumba.github.io/framecoach-blog/aperture-for-cinematic-look/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "ISO Settings for Video: How to Get Clean Footage",
+      "url": "https://theshumba.github.io/framecoach-blog/iso-settings-for-video/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "White Balance for Filmmaking — Get Your Colors Right",
+      "url": "https://theshumba.github.io/framecoach-blog/white-balance-for-filmmaking/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "What Frame Rate Should You Use for Short Films?",
+      "url": "https://theshumba.github.io/framecoach-blog/frame-rate-for-short-films/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Camera Settings for Cinematic Video — The Settings Pros Actually Use",
+      "url": "https://theshumba.github.io/framecoach-blog/camera-settings-for-cinematic-video/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "Best Camera Settings for Short Films (With Examples)",
+      "url": "https://theshumba.github.io/framecoach-blog/best-camera-settings-for-short-films/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "name": "Camera Settings for Golden Hour Filmmaking",
+      "url": "https://theshumba.github.io/framecoach-blog/camera-settings-for-golden-hour/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "name": "How to Shoot in Low Light: Filmmaking Guide",
+      "url": "https://theshumba.github.io/framecoach-blog/how-to-shoot-in-low-light/"
+    }
+  ]
+}
+</script>

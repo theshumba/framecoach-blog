@@ -64,3 +64,44 @@ Your first films will be bad. That's not failure — that's the process. Every f
 Start today. Not tomorrow. Today.
 
 More beginner resources in our [Learn Filmmaking hub](/framecoach-blog/learn-filmmaking/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What equipment do I need to start filmmaking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need a phone or any camera, free editing software like DaVinci Resolve, and natural light from a window. Your smartphone shoots 4K video, which is better resolution than most theaters project. Everything else is nice to have."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I learn before making my first film?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need to understand four things: exposure (making the image not too bright or dark), composition (where to place things in the frame), audio (capturing clean sound with a lav mic), and editing (cutting shots together). You don't need to master these — just understand them well enough to start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make my first short film as a beginner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Try the 60-second film challenge: write a story told in 60 seconds with no dialogue, plan 5-8 shots, shoot each one 3 times, cut it together in DaVinci Resolve, add music from YouTube Audio Library, and export. Then build gradually — add dialogue, work with actors, and plan proper shoots with shot lists."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it normal for my first films to be bad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every filmmaker you admire made terrible first films. The difference between them and people who always wanted to make films is that they actually made the bad films. Your first films being bad is not failure — it is the process."
+      }
+    }
+  ]
+}
+</script>
