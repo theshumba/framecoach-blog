@@ -6,7 +6,9 @@ layout: default
     <h1 itemprop="headline">{{ page.title }}</h1>
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
-      <span class="author" itemprop="author">{{ page.author | default: "FrameCoach Team" }}</span>
+      <span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">{{ page.author | default: site.author.name }}</span>
+      </span>
       {% if page.categories %}
       <span class="categories">
         {% for cat in page.categories %}
@@ -18,6 +20,11 @@ layout: default
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+  </div>
+  <div class="post-author-bio">
+    <h3>About the Author</h3>
+    <p><strong>{{ page.author | default: site.author.name }}</strong> — {{ site.author.bio }}</p>
+    <p><a href="https://framecoach.io">FrameCoach</a> | <a href="https://x.com/{{ site.author.twitter }}" rel="noopener" target="_blank">@{{ site.author.twitter }}</a></p>
   </div>
   <div class="post-cta">
     <h3>Level Up Your Filmmaking</h3>
@@ -36,22 +43,26 @@ layout: default
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 | escape }}",
-  "image": "{{ page.image | default: '/framecoach-blog/assets/images/default-og.png' | absolute_url }}",
+  "image": "{{ page.image | default: '/assets/images/default-og.png' | absolute_url }}",
   "author": {
-    "@type": "Organization",
-    "name": "FrameCoach",
-    "url": "https://framecoach.io"
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author.name }}",
+    "url": "https://framecoach.io",
+    "sameAs": [
+      "https://x.com/{{ site.author.twitter }}"
+    ]
   },
   "publisher": {
     "@type": "Organization",
+    "@id": "https://framecoach.io/#organization",
     "name": "FrameCoach",
     "url": "https://framecoach.io",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://framecoach.io/favicon.ico"
+      "url": "https://framecoach.io/logo.png"
     }
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
@@ -60,5 +71,25 @@ layout: default
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | escape }}",
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
 }
 </script>

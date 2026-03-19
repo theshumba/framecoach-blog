@@ -1,0 +1,30 @@
+# FrameCoach Blog
+> Filmmaking tips, camera settings guides, and visual storytelling education from FrameCoach
+
+FrameCoach is a free, real-time camera coaching app for indie filmmakers and content creators. This blog provides educational content about filmmaking fundamentals, camera settings, composition, and production workflow.
+
+## About FrameCoach
+FrameCoach is the decision layer for your camera. It coaches filmmakers through ISO, aperture, shutter speed, white balance, and composition decisions on set — in plain language, in real-time.
+
+## Key Pages
+- Homepage: https://framecoach.io
+- Blog: https://theshumba.github.io/framecoach-blog/
+- FAQ: https://theshumba.github.io/framecoach-blog/filmmaking-faq/
+- About: https://theshumba.github.io/framecoach-blog/about/
+- Camera Settings Guide: https://theshumba.github.io/framecoach-blog/camera-settings-guide/
+- Learn Filmmaking: https://theshumba.github.io/framecoach-blog/learn-filmmaking/
+- Filmmaker Tools: https://theshumba.github.io/framecoach-blog/filmmaker-tools/
+
+## Topics Covered
+- Camera settings (ISO, aperture, shutter speed, white balance, frame rate)
+- Shot composition and framing (rule of thirds, leading lines, depth)
+- Filmmaking for beginners (getting started, equipment, budgeting)
+- Cinematic techniques (lighting, color grading, audio)
+- Production workflow (shot lists, pre-production, on-set efficiency)
+- Filmmaker tools and apps
+
+## Who It's For
+Solo filmmakers, indie crews, content creators, and film students.
+
+## Social
+- Twitter/X: https://x.com/framecoachapp

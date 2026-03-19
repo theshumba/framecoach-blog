@@ -12,6 +12,7 @@
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": "https://framecoach.io/#app",
     "name": "FrameCoach",
     "description": "Real-time camera coaching app for filmmakers, videographers, and content creators. Coaches you through ISO, aperture, shutter speed, white balance, and composition decisions on set.",
     "url": "https://framecoach.io",
@@ -23,9 +24,7 @@
       "priceCurrency": "USD"
     },
     "author": {
-      "@type": "Organization",
-      "name": "FrameCoach",
-      "url": "https://framecoach.io"
+      "@id": "https://framecoach.io/#organization"
     }
   }
   </script>
@@ -33,13 +32,25 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://framecoach.io/#organization",
     "name": "FrameCoach",
     "url": "https://framecoach.io",
-    "logo": "https://framecoach.io/favicon.ico",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://framecoach.io/logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Melusi",
+      "sameAs": ["https://x.com/framecoachapp"]
+    },
     "sameAs": [
       "https://x.com/framecoachapp",
       "https://theshumba.github.io/framecoach-blog/"
-    ]
+    ],
+    "description": "FrameCoach is a free camera coaching app for indie filmmakers and content creators."
   }
   </script>
   {% if page.url == "/" %}
@@ -51,14 +62,7 @@
     "url": "{{ site.url }}{{ site.baseurl }}/",
     "description": "{{ site.description }}",
     "publisher": {
-      "@type": "Organization",
-      "name": "FrameCoach",
-      "url": "https://framecoach.io"
-    },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "{{ site.url }}{{ site.baseurl }}/?q={search_term_string}",
-      "query-input": "required name=search_term_string"
+      "@id": "https://framecoach.io/#organization"
     }
   }
   </script>
@@ -73,6 +77,8 @@
         <a href="{{ '/camera-settings-guide/' | relative_url }}">Camera Settings</a>
         <a href="{{ '/learn-filmmaking/' | relative_url }}">Learn Filmmaking</a>
         <a href="{{ '/filmmaker-tools/' | relative_url }}">Filmmaker Tools</a>
+        <a href="{{ '/filmmaking-faq/' | relative_url }}">FAQ</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
         <a href="https://framecoach.io" target="_blank" rel="noopener">Get FrameCoach</a>
       </div>
     </nav>
@@ -93,6 +99,7 @@
           <li><a href="{{ '/camera-settings-guide/' | relative_url }}">Camera Settings Guide</a></li>
           <li><a href="{{ '/learn-filmmaking/' | relative_url }}">Beginner Filmmaking</a></li>
           <li><a href="{{ '/filmmaker-tools/' | relative_url }}">Filmmaker Tools</a></li>
+          <li><a href="{{ '/filmmaking-faq/' | relative_url }}">FAQ</a></li>
         </ul>
       </div>
       <div class="footer-section">
@@ -101,6 +108,15 @@
           {% for post in site.posts limit:5 %}
           <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
           {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About FrameCoach</a></li>
+          <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+          <li><a href="https://x.com/framecoachapp" target="_blank" rel="noopener">Follow on X</a></li>
+          <li><a href="mailto:hello@framecoach.io">Contact Us</a></li>
         </ul>
       </div>
     </div>

@@ -5,8 +5,10 @@ baseurl: "/framecoach-blog"
 permalink: /:title/
 
 author:
-  name: "FrameCoach Team"
+  name: "Melusi"
   url: "https://framecoach.io"
+  bio: "Founder of FrameCoach. Helping indie filmmakers and content creators master their camera through real-time coaching."
+  twitter: "framecoachapp"
 
 plugins:
   - jekyll-seo-tag
@@ -19,8 +21,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "FrameCoach Team"
-      image: "/framecoach-blog/assets/images/default-og.png"
+      author: "Melusi"
+      image: "/assets/images/default-og.png"
 
 collections:
   pages:
